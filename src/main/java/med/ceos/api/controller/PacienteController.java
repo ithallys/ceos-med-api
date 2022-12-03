@@ -1,6 +1,5 @@
 package med.ceos.api.controller;
 
-import med.ceos.api.medico.DadosCadastroMedico;
 import med.ceos.api.paciente.DadosCadastroPaciente;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -12,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class PacienteController {
 
     @PostMapping
-    public void cadastrar(@RequestBody DadosCadastroPaciente dados){
+    public void cadastrar(@RequestBody DadosCadastroPaciente dados) {
         System.out.println(dados);
     }
 
