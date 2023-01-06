@@ -1,9 +1,9 @@
-package med.ceos.api.paciente;
+package med.ceos.api.domain.paciente;
 
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotNull;
-import med.ceos.api.endereco.DadosEndereco;
+import med.ceos.api.domain.endereco.DadosEndereco;
 
 public record DadosAtualizacaoPaciente(
         @NotNull

@@ -1,4 +1,4 @@
-package med.ceos.api.medico;
+package med.ceos.api.domain.medico;
 
 import jakarta.persistence.Embedded;
 import jakarta.persistence.Entity;
@@ -13,7 +13,7 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import med.ceos.api.endereco.Endereco;
+import med.ceos.api.domain.endereco.Endereco;
 
 @Getter
 @Setter
